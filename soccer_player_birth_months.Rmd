@@ -5,5 +5,13 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
 ```
+
+```{r}
+raw_data <-read_csv("birthdates.csv")
+view(raw_data)
+```
+
+
 
