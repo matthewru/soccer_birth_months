@@ -9,8 +9,18 @@ library(tidyverse)
 ```
 
 ```{r}
-raw_data <-read_csv("birthdates.csv")
-view(raw_data)
+raw_data <- read_csv("birthdates.csv")
+```
+```{r}
+raw_data %>% 
+  mutate(value = parse_integer(substr(value, 7, 8))) %>% 
+  rename(month = value) %>% 
+  group_by(month) %>% 
+  summarize(total = n()) %>% 
+  ggplot(mapping = aes(x = month, y = total)) + 
+    geom_col() + 
+    scale_x_continuous(limits = c(1, 12))
+  
 ```
 
 
