@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-06-21T19:24:21-05:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Soccer Birth Months",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-06-21T19:24:25-05:00"
+    },
+    {
+      "path": "soccer_player_birth_months.html",
+      "title": "soccer_birth_months",
+      "author": [],
+      "contents": "\n\n\n\n\n\n\n\n\nSoccer Birth Months\n\n\nHome\nAbout\n☰\n\n\n  \n    \n      \n        \n        \n        \n      \n      \n    \n    \n      \n  Home\n\n\n  About\n\n      \n  \n\n\n\n\n\n\nsoccer_birth_months\n\n\n\n\n## \n## ── Column specification ────────────────────────────────────────────────────────────────\n## cols(\n##   value = col_character()\n## )\n## Warning: Removed 2 rows containing missing values (geom_col).\n\n\n\n\n\n\n\n\n\n\n\n\n\n// add bootstrap table styles to pandoc tables\nfunction bootstrapStylePandocTables() {\n  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');\n}\n$(document).ready(function () {\n  bootstrapStylePandocTables();\n});\n\n\n\n$(document).ready(function () {\n  window.buildTabsets(\"TOC\");\n});\n\n$(document).ready(function () {\n  $('.tabset-dropdown > .nav-tabs > li').click(function () {\n    $(this).parent().toggleClass('nav-tabs-open');\n  });\n});\n\n  (function () {\n    var script = document.createElement(\"script\");\n    script.type = \"text/javascript\";\n    script.src  = \"https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\";\n    document.getElementsByTagName(\"head\")[0].appendChild(script);\n  })();\n",
+      "last_modified": "2021-06-21T19:24:31-05:00"
+    }
+  ],
+  "collections": []
+}
